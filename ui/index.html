@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kubernetes Demo</title>
+</head>
+<body>
+    <h1>UI is working!</h1>
+
+    <button onclick="checkBackend()">
+        Check Backend
+    </button>
+
+    <p id="result"></p>
+
+    <script>
+        async function checkBackend() {
+            const response = await fetch("http://localhost:5000");
+            const data = await response.json();
+
+            document.getElementById("result").innerText =
+                data.message;
+        }
+    </script>
+</body>
+</html>
