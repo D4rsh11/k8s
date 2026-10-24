@@ -3,6 +3,7 @@
 A full-stack application deployed on Kubernetes, split into a backend service, a frontend UI, and the Kubernetes manifests used to run both.
 ## Playlist to learn
 https://youtube.com/playlist?list=PLBr8obKbpkYvNosYrgzEayOCe1d_MY5n-&si=08Oy4CKc0MDjFhTf
+https://youtu.be/KVBON1lA9N8
 
 ## Structure
 
